@@ -1,0 +1,119 @@
+:root {
+    --gray: #A5A5A5;
+    --dark-gray: #343434;
+    --btn-orang: #00c853;
+    --BG-color: #000;
+    --dark: #374151;
+    --darker: #1f2937;
+    --darkest: #111827;
+    --gray: #6b7280;
+    --light: #EEE;
+    --pink: #ec4899;
+    --red: #d12262;
+    --red-dark: #a01c4d;
+    --purble: #8b5cf6;
+    --green: #00bd6edd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--light);
+    background: var(--darker);
+    max-height: 100vh;
+    font-family: 'Open sans', sans-serif;
+}
+
+main {
+    /* height: 100vh; */
+    position: relative;
+}
+
+.container {
+    margin: auto;
+    max-width: 997px;
+    /* height:100vh; */
+}
+
+.wrapper {
+    position: relative;
+    transform: translateY(50%);
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.wrapper h1 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.watch {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 550px;
+    padding: 50px;
+    margin: auto;
+    background: var(--darkest);
+    border: none;
+    border-radius: 20px;
+
+}
+
+.time {
+    display: flex;
+    font-size: 6rem;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.4s;
+    margin-bottom: 30px;
+}
+
+.time span {
+    transition: 0.4s;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    background: var(--red);
+    color: #EEE;
+    margin: 5px;
+    width: calc(33.3% - 5px);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.controls button:hover {
+    background: var(--red-dark);
+    color: var(--light);
+}
+
+.controls .start:focus{
+    background: #8b5cf6;
+}
+.controls .resume{
+    background: #00c853;
+}
+.controls .resume:hover{
+    background: #019b41;
+}

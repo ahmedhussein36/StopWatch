@@ -117,3 +117,47 @@ main {
 .controls .resume:hover{
     background: #019b41;
 }
+
+@media (max-width: 576px) {
+
+    h1,
+    span {
+        font-size: 4rem;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    h1,
+    span {
+        font-size: 4rem;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    h1,
+    span {
+        font-size: 5rem;
+    }
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    h1,
+    span {
+        font-size: 6rem;
+    }
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+    h1,
+    span {
+        font-size: 6rem;
+    }
+}

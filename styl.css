@@ -36,6 +36,7 @@ main {
 .container {
     margin: auto;
     max-width: 997px;
+    padding: 15px
     /* height:100vh; */
 }
 
